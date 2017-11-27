@@ -1,0 +1,14 @@
+/* Categories Mobile Styles */
+
+@media(max-width:768px) {
+  .categoriesBlock {
+    width:48%;
+  }
+}
+
+
+@media(max-width:425px) {
+  .categoriesBlock {
+    width:98%;
+  }
+}

@@ -1,0 +1,13 @@
+/* Home Mobile Styles */
+
+@media(max-width:768px) {
+  .featureContainer {
+    display:flex;
+    flex-direction:column;
+    margin-top:5px;
+  }
+
+  .featureBlock {
+    width:100%;
+  }
+}

@@ -1,0 +1,62 @@
+/* Categories Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.categoriesMain {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:100%;
+  max-width:1400px;
+  margin:0 auto;
+  margin-top:15px;
+}
+
+.categoriesBlock {
+  background:#FFFFFF;
+  width:23%;
+  margin:1%;
+  height:200px;
+  border-radius:3px;
+  text-decoration:none;
+}
+
+.categoriesImage {
+  height:150px;
+  width:100%;
+  overflow:hidden;
+}
+
+.categoryImage {
+  width:100%;
+  height:auto;
+  border-radius:3px 3px 0px 0px;
+}
+
+.categoriesInfo {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  height:50px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.categoriesName {
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size:0.9em;
+  color:#0098ff;
+}
+
+.categoriesCount {
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size:0.8em;
+  color:#888888;
+}

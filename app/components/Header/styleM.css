@@ -1,0 +1,54 @@
+/* Header Mobile Styles */
+
+@media(max-width:768px) {
+  .mobileMenu {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:fixed;
+    left:0;
+    bottom:0;
+    background:#FFFFFF;
+    height:50px;
+    width:100%;
+    border-top:1px solid #e1e8ed;
+  }
+
+  .mobileMenuButton {
+    width:20%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    font-size:1.3em;
+    text-decoration:none;
+    color:#333333;
+  }
+
+  .mobileMenuActive {
+    width:20%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    font-size:1.3em;
+    color:#0098ff;
+    border-top:3px solid #0098ff;
+  }
+
+  .navbar {
+    display:none;
+  }
+
+  .navButton {
+    display:none;
+  }
+
+  .headerComponent {
+    justify-content: center;
+  }
+
+  .userContainer {
+    display:none;
+  }
+}

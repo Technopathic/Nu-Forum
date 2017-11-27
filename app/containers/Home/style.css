@@ -1,0 +1,124 @@
+/* Home Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  background:#f8f8f8;
+}
+
+.mainContainer {
+  width:calc(100% - 4px);
+  max-width:1200px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:0 auto;
+}
+
+.featureContainer {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin-top:15px;
+}
+
+.topicsContainer {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:70px;
+}
+
+.featureBlock {
+  background:#FFFFFF;
+  border:1px solid #e1e8ed;
+  width:49%;
+  min-height:60px;
+  margin-top:10px;
+  border-radius:3px;
+  display:flex;
+  flex-direction:row;
+  text-decoration:none;
+}
+
+.topicBlock {
+  background:#FFFFFF;
+  border:1px solid #e1e8ed;
+  width:100%;
+  min-height:60px;
+  margin-top:10px;
+  border-radius:3px;
+  display:flex;
+  flex-direction:row;
+  text-decoration:none;
+}
+
+.topicAvatar {
+  height:40px;
+  width:40px;
+  margin:10px;
+  overflow:hidden;
+}
+
+.topicAvatarImg {
+  width:100%;
+  height:auto;
+  border:1px solid #EEEEEE;
+}
+
+.topicInfo {
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  flex-grow:1;
+}
+
+.topicTop {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.topicTitle {
+  font-family:'Montserrat';
+  font-size:0.8em;
+  font-weight:bold;
+  color:#0098ff;
+}
+
+.topicCategories {
+  display:flex;
+  flex-direction:row;
+}
+
+.topicCategoryBlock {
+  border-radius:25px;
+  font-family:'Montserrat';
+  font-size:0.6em;
+  font-weight:bold;
+  padding:4px 8px;
+  text-transform:uppercase;
+  margin-left:10px;
+  text-decoration:none;
+}
+
+.topicBottom {
+  font-family:'Lato';
+  font-size:0.8em;
+  color:#35687f;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.topicBottomBlock {
+  margin-right:5px;
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  font-family:Lato;
+}

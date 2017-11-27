@@ -1,0 +1,276 @@
+/* Detail Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.detailHeader {
+  height:45px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:"Montserrat";
+  font-weight:bold;
+}
+
+.detailTitle {
+  font-size:0.9em;
+  color:#0098ff;
+}
+
+.detailDate {
+  font-size:0.8em;
+  color:#888888;
+}
+
+.detailTopicContainer {
+  background:#FFFFFF;
+  width:100%;
+  min-height:175px;
+  border-top:1px solid #e1e8ed;
+  border-bottom:1px solid #e1e8ed;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.detailTopic {
+  width:1100px;
+  display:flex;
+  flex-direction:row;
+}
+
+.detailTopicAvatar {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  min-height:175px;
+  overflow:hidden;
+}
+
+.detailAvatarImg {
+  width:100%;
+  max-width:120px;
+  height:auto;
+}
+
+.detailAvatarName {
+  font-family:"Montserrat";
+  font-size:0.8em;
+  color:#0098ff;
+  font-weight:bold;
+  margin-top:3px;
+}
+
+.detailTopicInfo {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  flex-grow:1;
+  padding:25px;
+}
+
+.detailTopicContent {
+  font-family:'Lato';
+  font-size:0.9em;
+  color:#333333;
+}
+
+.detailTopicViews {
+  display:flex;
+  flex-direction:row;
+  font-size:1.2em;
+}
+
+.detailTopicStats {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  font-family:"Montserrat";
+  font-size:0.8em;
+  color:#0098ff;
+  font-weight:bold;
+}
+
+.detailTopicButtons {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.detailTopicButton {
+  margin-right:10px;
+}
+
+.detailReplyContainer {
+  width:100%;
+  max-width:1400px;
+  margin:0 auto;
+  margin-top:30px;
+}
+
+.replyBlockContainer {
+  background:#FFFFFF;
+  display:flex;
+  flex-direction:column;
+  border:1px solid #e1e8ed;
+  margin-bottom:15px;
+}
+
+.replyBlock {
+  min-height:75px;
+  display:flex;
+  flex-direction:row;
+}
+
+.replyChildContainer {
+  display:flex;
+  flex-direction:column;
+  margin-left:30px;
+}
+
+.replyBlockChild {
+  min-height:75px;
+  display:flex;
+  flex-direction:row;
+  margin-top:10px;
+  margin-left:30px;
+  background:#F2F2F2;
+}
+
+.replyAvatar {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:60px;
+  width:60px;
+  margin:5px;
+  overflow:hidden;
+}
+
+.replyAvatarImg {
+  width:100%;
+  max-width:60px;
+}
+
+.replyInfo {
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+}
+
+.replyTop {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  border-bottom:1px solid #DDDDDD;
+  align-items:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.replyTopInfo {
+  display:flex;
+  flex-direction:row;
+}
+
+.replyName {
+  font-family:"Montserrat";
+  font-size:0.8em;
+  color:#0098ff;
+  font-weight:bold;
+  margin-left:5px;
+}
+
+.replyDate {
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size:0.7em;
+  color:#888888;
+  margin-left:10px;
+}
+
+.replyContent {
+  padding:5px;
+  font-family:'Lato';
+  font-size:0.8em;
+  color:#333333;
+}
+
+.replyModBlock {
+  background:#0098ff;
+  border-radius:3px;
+  font-family:'Montserrat';
+  font-size:0.65em;
+  color:#FFFFFF;
+  padding-left:3px;
+  padding-right:3px;
+  padding-top:1px;
+  padding-bottom:1px;
+  margin-left:5px;
+  font-weight:bold;
+}
+
+.replyOptions {
+  display:flex;
+  flex-direction:row;
+}
+
+.replyButton {
+  font-family:"Montserrat";
+  font-size:0.8em;
+  color:#0098ff;
+  font-weight:bold;
+  margin-right:10px;
+  cursor:pointer;
+}
+
+.replyEditor {
+  width:60%;
+}
+
+.replyDrawerOptions {
+  width:40%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+}
+
+.home-toolbar {
+  background:transparent;
+  border:none;
+  border-bottom:1px solid #EEEEEE;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.home-wrapper {
+  width:100%;
+  margin-top:15px;
+}
+
+.rdw-editor-main {
+  width:100%;
+  height:35vh;
+  font-family:'Lato';
+  font-size:1em;
+  color:#333333;
+  overflow:auto;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.drawerContainer {
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+}

@@ -1,0 +1,173 @@
+/* Header Styles */
+
+.headerComponent {
+  width:100%;
+  height:50px;
+  background:#FFFFFF;
+  border-bottom:1px solid #e1e8ed;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.navbar {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.navButton {
+  text-decoration:none;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  color:#333333;
+  height:50px;
+  padding-left:30px;
+  padding-right:30px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  cursor:pointer;
+}
+
+.navButton:hover {
+  background:#FAFAFA;
+  color:#32acff;
+}
+
+.navButtonActive {
+  background:#fbfbfc;
+  color:#0098ff;
+  border-bottom:3px solid #0098ff;
+  text-decoration:none;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  height:47px;
+  padding-left:30px;
+  padding-right:30px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.headerIcon {
+  margin-right:5px;
+  font-size:1.2em;
+}
+
+.siteName {
+  display:flex;
+  flex-direction:row;
+  font-variant:small-caps;
+  font-family:'Lato';
+  font-size:2em;
+  margin-left:15px;
+  align-items:center;
+}
+
+.userContainer {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-right:15px;
+}
+
+.authBlock {
+  padding:30px;
+}
+
+.userAvatarNavbar {
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  margin-right:5px;
+}
+
+.userMenuNavBar {
+  display:flex;
+  flex-direction:column;
+  align-self:flex-end;
+  position:absolute;
+  z-index:9999;
+  top:50px;
+  right:0;
+}
+
+.userMenuButton {
+  display:flex;
+  flex-direction:row;
+  padding:5px;
+  width:200px;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  font-variant:small-caps;
+  border-radius:0px 0px 2px 2px;
+  background:#EEEEEE;
+  color:#333333;
+  border-bottom:1px solid  #e1e8ed;
+  border-right:1px solid  #e1e8ed;
+  border-left:1px solid  #e1e8ed;
+  cursor:pointer;
+}
+
+.userMenuButton:hover {
+  display:flex;
+  flex-direction:row;
+  padding:5px;
+  width:200px;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  font-variant:small-caps;
+  border-radius:0px 0px 2px 2px;
+  background:#444444;
+  color:#FFFFFF;
+  border-bottom:1px solid  #e1e8ed;
+  border-right:1px solid  #e1e8ed;
+  border-left:1px solid  #e1e8ed;
+}
+
+.toolbarHidden {
+  display:none;
+}
+
+.threadTitleInput {
+  display:flex;
+  width:100%;
+  font-size:1.5em;
+  padding:5px;
+  background:#EEEEEE;
+  border:none;
+  outline:none;
+}
+
+.categoryList {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin-bottom:15px;
+}
+
+.categorySelectBlock {
+  border-radius:25px;
+  font-family:'Montserrat';
+  font-size:0.8em;
+  font-weight:bold;
+  padding:4px 8px;
+  text-transform:uppercase;
+  margin-left:10px;
+  margin-bottom:10px;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.primaryButtonStyle {
+  backgroundColor:#0098ff
+}
+
+.mobileMenu {
+  display:none;
+}
